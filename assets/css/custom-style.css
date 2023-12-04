@@ -1522,7 +1522,7 @@ gap :0.5rem;
     } 
        .version-row .version-info .version-num,
        .version-row .version-info .version-date{
-gap :1rem;
+        gap :1rem;
        }
        .version-row ul li{
         list-style: none;
@@ -1530,5 +1530,19 @@ gap :1rem;
         align-items: center;
        }
        .version-row ul li i{
-font-weight: 500;
+        font-weight: 500;
        }
+
+       .not-found-page .not-found-row{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 1rem;
+       }
+
+       .not-found-page .not-found-row .btn-box{
+         flex-direction: column;
+         gap: 1rem;
+
+}
